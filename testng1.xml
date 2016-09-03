@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="gridtest">
+  <test name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.StockAccounting.Master.grid"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.StockAccounting.Master.grid"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name="browser" value="iexplore"></parameter>
+    <classes>
+      <class name="com.StockAccounting.Master.grid"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- gridtest -->

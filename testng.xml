@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitesa" parallel="false">
+  <test name="saTest">
+    <classes>
+      <class name="com.StockAccounting.Master.execatry"/>
+      <class name="com.StockAccounting.Master.exeng"/>
+      
+      <class name="com.StockAccounting.Master.Supplierng"/>
+    </classes>
+  </test> <!-- saTest -->
+</suite> <!-- Suitesa -->

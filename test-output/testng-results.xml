@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gridtest" duration-ms="26083" started-at="2016-09-02T11:02:05Z" finished-at="2016-09-02T11:02:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15052" started-at="2016-09-02T11:02:05Z" finished-at="2016-09-02T11:02:20Z">
+      <class name="com.StockAccounting.Master.grid">
+        <test-method status="PASS" signature="exe(java.lang.String)[pri:0, instance:com.StockAccounting.Master.grid@99b2061]" name="exe" duration-ms="15033" started-at="2016-09-02T16:32:05Z" finished-at="2016-09-02T16:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exe -->
+      </class> <!-- com.StockAccounting.Master.grid -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="10976" started-at="2016-09-02T11:02:20Z" finished-at="2016-09-02T11:02:31Z">
+      <class name="com.StockAccounting.Master.grid">
+        <test-method status="PASS" signature="exe(java.lang.String)[pri:0, instance:com.StockAccounting.Master.grid@2a330f22]" name="exe" duration-ms="10972" started-at="2016-09-02T16:32:20Z" finished-at="2016-09-02T16:32:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exe -->
+      </class> <!-- com.StockAccounting.Master.grid -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="16" started-at="2016-09-02T11:02:31Z" finished-at="2016-09-02T11:02:31Z">
+      <class name="com.StockAccounting.Master.grid">
+        <test-method status="FAIL" signature="exe(java.lang.String)[pri:0, instance:com.StockAccounting.Master.grid@71fda7c]" name="exe" duration-ms="8" started-at="2016-09-02T16:32:31Z" finished-at="2016-09-02T16:32:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iexplore]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: desiredCapabilities=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: desiredCapabilities=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.ImmutableMapEntry.<init>(ImmutableMapEntry.java:50)
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:122)
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:197)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at com.StockAccounting.Master.grid.exe(grid.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exe -->
+      </class> <!-- com.StockAccounting.Master.grid -->
+    </test> <!-- Test2 -->
+  </suite> <!-- gridtest -->
+</testng-results>

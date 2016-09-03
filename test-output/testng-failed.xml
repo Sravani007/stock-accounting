@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [gridtest]">
+  <parameter name="browser" value="iexplore"/>
+  <test name="Test2(failed)">
+    <parameter name="browser" value="iexplore"/>
+    <classes>
+      <class name="com.StockAccounting.Master.grid">
+        <methods>
+          <include name="exe" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.StockAccounting.Master.grid -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [gridtest] -->

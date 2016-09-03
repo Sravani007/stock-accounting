@@ -1,0 +1,4 @@
+Scategory###Results
+sdf%%%Stock Category creation pass
+fg%%%Stock Category creation pass
+dfg%%%Stock Category creation pass

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitesa]" parallel="classes">
+  <test name="saTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.StockAccounting.Master.exeng">
+        <methods>
+          <include name="uom" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.StockAccounting.Master.exeng -->
+      <class name="com.StockAccounting.Master.execatry">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="scatgry" invocation-numbers="0 1 2"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.StockAccounting.Master.execatry -->
+      <class name="com.StockAccounting.Master.Supplierng">
+        <methods>
+          <include name="supplier" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.StockAccounting.Master.Supplierng -->
+    </classes>
+  </test> <!-- saTest(failed) -->
+</suite> <!-- Failed suite [Suitesa] -->
